@@ -16,6 +16,10 @@ public class ValidPalindromeII {
 
     }
     private boolean isPalindric(String s,int l ,int r){
+        /*
+         * 查找回文字符串的良好代码！！
+         * 记住这个写法
+         */
         while(++l < --r){
             if (s.charAt(l)!=s.charAt(r))return false;
         }
